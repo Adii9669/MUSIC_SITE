@@ -16,6 +16,6 @@ nav{
 nav ul{
     display: flex;
     list-style-type: none;
-    height: 69;
+    height: 69px;
     background-color: black;
 }
