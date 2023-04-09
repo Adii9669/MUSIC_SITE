@@ -46,6 +46,7 @@ nav ul li {
     width: 90%;
     border-radius: 13px;
     padding: 33px;
+    /* background-image: url('space.jpg'); */
 }
 
 
@@ -79,11 +80,15 @@ nav ul li {
     cursor: pointer;
 }
 
+.songItemContainer{
+    margin-top: 54px;
+}
+
 .songItem{
     height: 100px;
     display: flex;
     background-color: rgb(212, 112, 112);
-    width: 60%;
+    width: 55%;
     color: white;
     margin: 17px 0;
     justify-content: space-between;
@@ -106,4 +111,7 @@ nav ul li {
     padding: 4px;
 }
 
-
+.songInfo img[
+    opacity: 0;
+    transition: opacity is ease-in;
+]
