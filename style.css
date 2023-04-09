@@ -34,14 +34,14 @@ nav ul li {
     display: flex;
     align-items: center;
     font-weight: bolder;
-    font-size:  1.5rem;
+    font-size:  1.8rem;
 }
 
 .container{
     min-height: 73vh;
     background-color: black;
     color: aliceblue;
-    font-family: 'Caveat', cursive;
+    font-family: 'Kanit', sans-serif;
     margin: 23px auto;
     width: 90%;
     border-radius: 13px;
@@ -87,18 +87,23 @@ nav ul li {
     color: white;
     margin: 17px 0;
     justify-content: space-between;
-    border-radius: 30px;
+    align-items: center;
+    border-radius: 40px;
 
 }
 
 .songItem img{
     width: 100px;
-    margin: 0 10px;
-    border-radius: 30px;
+    margin: 10 40px;
+    border-radius: 60px;
     
 }
 .timestamp{
-    margin: 7 33px;
+    margin: 0 10px;
+}
+
+.fa-regular{
+    padding: 4px;
 }
 
 
