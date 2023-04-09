@@ -9,7 +9,6 @@ body{
 }
 
 nav{
-    font-family: 'Caveat', cursive;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -40,12 +39,19 @@ nav ul li {
 
 .container{
     min-height: 75vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Caveat', cursive;
+    margin: 23px auto;
+    width: 90%;
+    border-radius: 13px;
+    padding: 33px;
 }
 
 
 .Bottom{
     position: sticky;
-    height: 130px;
+    height: 150px;
     background-color: black;
     color: white;
     bottom: 0;
