@@ -66,7 +66,7 @@ nav ul li {
     margin-top: 22px;
     
 }
-.icons i{
+.icons {
     cursor: pointer;
 }
 
@@ -75,24 +75,30 @@ nav ul li {
     text-align: center;
 }
 
+.songlistplay{
+    cursor: pointer;
+}
+
 .songItem{
     height: 100px;
     display: flex;
-    background-color: black;
-    width: 50%;
+    background-color: rgb(212, 112, 112);
+    width: 60%;
     color: white;
-    margin: 12px 0;
+    margin: 17px 0;
+    justify-content: space-between;
+    border-radius: 30px;
 
 }
 
 .songItem img{
+    width: 100px;
+    margin: 0 10px;
+    border-radius: 30px;
     
+}
+.timestamp{
+    margin: 7 33px;
 }
 
-.songItem{
-    
-}
 
-.songItem{
-    
-}
