@@ -111,7 +111,7 @@ nav ul li {
     padding: 4px;
 }
 
-.songInfo img[
+.songInfo img{
     opacity: 0;
     transition: opacity is ease-in;
-]
+}
