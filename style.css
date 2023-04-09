@@ -26,8 +26,13 @@ nav ul li {
 }
 
 .brand img{
+<<<<<<< HEAD
+    width: 44px;
+    padding: 0 8px;
+=======
     width: 68px;
     padding: 0 10px;
+>>>>>>> f20703b3000b15323247caaffee9ec82a6413d61
 }
 
 .brand {
@@ -53,13 +58,17 @@ nav ul li {
     position: sticky;
     height: 140px;
     background-color: black;
-    color: white;
+    color: aliceblue;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
+    flex-direction: column; 
+=======
     flex-direction: column;
 }
+>>>>>>> f20703b3000b15323247caaffee9ec82a6413d61
 
 .icons{
     margin-top: 14px;
