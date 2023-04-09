@@ -52,7 +52,14 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
 
+.icons{
+    margin-top: 14px;
+}
+.icons{
+    cursor: pointer;
 }
 
 #myProgressBar{
