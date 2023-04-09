@@ -27,8 +27,8 @@ nav ul li {
 }
 
 .brand img{
-    width: 68px;
-    padding: 0 70px>;
+    width: 44px;
+    padding: 0 8px;
 }
 
 .brand {
@@ -47,11 +47,12 @@ nav ul li {
     position: sticky;
     height: 130px;
     background-color: black;
-    color: white;
+    color: aliceblue;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; 
 
 }
 
