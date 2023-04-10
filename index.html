@@ -9,13 +9,13 @@
     <title>Spotify - Your favourite music is here</title>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
     <!-- <link rel="stylesheet" href="https://fontawesome.com/icons/circle-play?f=classic&s=light"> -->
-    <!-- <i class="stylesheet" href="https://fontawesome.com/icons/circle-play?f=classic&s=light"></i> -->
+    <!-- <i id="0" class="stylesheet" href="https://fontawesome.com/icons/circle-play?f=classic&s=light"></i> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li id="0" class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
             <li>HOME</li>
             <li>ABOUT</li>
         </ul>
@@ -27,44 +27,44 @@
             <h1>Best of NCS - No Copyright Sounds</h1>
             <div class="songItemContainer">
                 <div class="songItem">
-                    <img src="covers/1.jpg" alt="1">
-                    <span>Let me love you</span>
-                    <span class="songlistplay"><span class="timestamp">05:34<i class="fa-regular fa-circle-play"></i></span></span>
+                    <img  alt="1">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="0" class="far songItem-Play fa-regular fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="covers/2.jpg" alt="1">
-                    <span>Baby Calm Down</span>
-                    <span class="songlistplay"><span class="timestamp">05:34<i class="fa-regular fa-circle-play"></i></span></span>
+                    <img  alt="1">
+                    <span class="songName">Baby Calm Down</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="0" class="far songItem-Play fa-regular fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="covers/3.jpg" alt="1">
-                    <span>swallala</span>
-                    <span class="songlistplay"><span class="timestamp">05:34<i class="fa-regular fa-circle-play"></i></span></span>
+                    <img salt="1">
+                    <span class="songName">swallala</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="1" class="far songItem-Play fa-regular fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="covers/4.jpg" alt="1">
-                    <span>take me home contury roads</span>
-                    <span class="songlistplay"><span class="timestamp">05:34<i class="fa-regular fa-circle-play"></i></span></span>
+                    <img  alt="1">
+                    <span class="songName">take me home contury roads</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="2" class="far songItem-Play fa-regular fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="covers/5.jpg" alt="1">
-                    <span>Daspacito</span>
-                    <span class="songlistplay"><span class="timestamp">05:34<i class="fa-regular fa-circle-play"></i></span></span>
+                    <img  alt="1">
+                    <span class="songName">Daspacito</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="3" class="far songItem-Play fa-regular fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="covers/6.jpg" alt="1">
-                    <span>Sovuiner</span>
-                    <span class="songlistplay"><span class="timestamp">05:34<i class="fa-regular fa-circle-play"></i></span></span>
+                    <img  alt="1">
+                    <span class="songName">Sovuiner</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="4" class="far songItem-Play fa-regular fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="covers/7.jpg" alt="1">
-                    <span>Lag Ja Gale</span>
-                    <span class="songlistplay"><span class="timestamp">05:34<i class="fa-regular fa-circle-play"></i></span></span>
+                    <img  alt="1">
+                    <span class="songName">Lag Ja Gale</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="5" class="far songItem-Play fa-regular fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
-                    <img src="covers/10.jpg" alt="1">
-                    <span>Balam Thanedar</span>
-                    <span class="songlistplay"><span class="timestamp">05:34<i class="fa-regular fa-circle-play"></i></span></span>
+                    <img  alt="1">
+                    <span class="songName">Balam Thanedar</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="6" class="far songItem-Play fa-regular fa-circle-play"></i></span></span>
                 </div>
             </div>
 
@@ -73,21 +73,21 @@
 
         </div>
         <div class="bottom">
-            <input type="range" name="range" id="myProgressBar" min="0" max="100"/>
+            <input type="range" name="range" id="myProgressBar" min="0" value = "0" max="100"/>
             <div class="icons">
-                <i class="stylesheet" href="https://fontawesome.com/icons/circle-play?f=classic&s=light"></i>
-                <i class="fas fa-3x fa-step-backward"></i>
-                <i class="fas fa-3x fa-play-circle"></i>
-                <i class="fas fa-3x fa-step-forward"></i>
+                <i id="0" class="stylesheet" href="https://fontawesome.com/icons/circle-play?f=classic&s=light"></i>
+                <i id="0" class="fas fa-3x fa-step-backward"id ="previous"></i>
+                <i id="0" class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+                <i id="0" class="fas fa-3x fa-step-forward"id = "next"></i>
             </div>
             <div class="songInfo">
-                <img src="playing.gif" width="42px" alt=""> Let me love you - justin beiber
+                <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">ringpin</span>
 
             </div>
         </div>
     </div>
     <script src=""></script>
     <script src="https://kit.fontawesome.com/21617ba2ae.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="jsscripts.js"></script>
 </body>
 </html>
