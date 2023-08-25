@@ -16,7 +16,7 @@ let songs = [
     {songName: "Yeh Shaam Mastani-Kishore Kumar", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
     {songName: "Teri Jhuki Nazar-Pritam", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
     {songName: "We Rollin-Shubh", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Zara Sa-Pritam", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Zara-Sa-Pritam", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
     {songName: "Woh Lamhein-Atif Aslam", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
     {songName: "Pasoori-All Sethi", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
 ]
